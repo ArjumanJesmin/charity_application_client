@@ -13,8 +13,17 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        trebuchet: [
+          '"Trebuchet MS"',
+          "Helvetica Neue",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+        ],
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
