@@ -1,4 +1,4 @@
-import Sidebar from "../../Dashboard/Sidebar/Sidebar";
+import { HomeTopBar } from "./HomeTopBar";
 
 const Navbar = () => {
   return (
@@ -25,12 +25,12 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200 rounded-box w-52"
           >
-            <Sidebar />
+            <HomeTopBar />
           </ul>
         </div>
         <div className="hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-white font-medium text-lg flex space-x-4">
-            <Sidebar />
+            <HomeTopBar />
           </ul>
         </div>
       </div>
